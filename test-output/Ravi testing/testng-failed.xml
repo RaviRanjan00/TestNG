@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Ravi testing]" guice-stage="DEVELOPMENT">
+  <test name="Test(failed)">
+    <parameter name="url3" value="https:www.youtube.com/"/>
+    <parameter name="url2" value="https:www.facebook.com/"/>
+    <parameter name="browser" value="edge"/>
+    <parameter name="url" value="https:www.google.com/"/>
+    <classes>
+      <class name="Listeners_Test.Base_Class">
+        <methods>
+          <include name="Test2" invocation-numbers="0"/>
+          <include name="AfterTest"/>
+          <include name="BeforeTest"/>
+        </methods>
+      </class> <!-- Listeners_Test.Base_Class -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Ravi testing] -->
